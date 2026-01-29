@@ -10,6 +10,7 @@ print("-"*30)
 print("CADENAS Y CADENAS")
 print("-"*30)
 cad="Esta es una 'cadena con comillas simples' dentro de comillas dobles"
+cad= cad + " algo"
 print(cad)
 print(cad[0])
 # cad[0]='e'  #Error, las cadenas son inmutables
@@ -17,7 +18,6 @@ lenguaje="Python"
 descripcion="Este es un buen curso"
 frase=descripcion+" de "+lenguaje
 print(frase)
-
 print("-"*30)
 print("CADENAS Y NUMEROS")
 print("-"*30)
@@ -37,22 +37,22 @@ print(mensaje)
 print("-"*30)
 print("FUNCIONES CON CADENAS")
 print("-"*30)
-nombres="Ana,Maria,Juan,Carlos,Luis"
+nombres="Ana Maria Juan Carlos Luis"
 elementos="a a a b b B c c c c c aa"
 print(nombres.upper())
 print(nombres.lower())
 print(nombres.capitalize())
 print(nombres.title())
 print(nombres.replace("a","x"))
-print(nombres.split(","))
+print(nombres.split(" "))
 print(nombres.count("a"))
 print(elementos.count("a"))
-print(nombres.split(",")[0]) 
-print(nombres.split(",")[-1]) 
-print(nombres.split(",")[-2])
-#print(nombres.split(",")[-6])
+print(nombres.split(" ")[0]) 
+print(nombres.split(" ")[-1]) 
+print(nombres.split(" ")[-2])
+#print(nombres.split(" ")[-6])
 print(nombres.replace("Juan","Pedro"))
-print(nombres.replace(","," "))
+print(nombres.replace(" ",","))
 print(nombres.endswith("Luis"))
 print(nombres.startswith("Ana"))
 print(nombres.index("Carlos"))
