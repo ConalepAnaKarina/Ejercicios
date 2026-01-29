@@ -68,4 +68,6 @@ $$y se mantendrá el formato!!."""
 print(texto_multilinea)
 cadena_limpia=texto_multilinea.replace("[]","")\
     .replace("**","").replace("$$","")
-print(cadena_limpia)
+print(cadena_limpia)Changes to be committed:
+#	new file:   Cadenas.py
+#
